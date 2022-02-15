@@ -1,0 +1,526 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/SFProDisplay-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lutsk-sity";
+	src: url("../fonts/Lutsk-sity.woff2") format("woff2"), url("../fonts/Lutsk-sity.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AmerikaPro";
+	src: url("../fonts/AmerikaPro.woff2") format("woff2"), url("../fonts/AmerikaPro.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brozas";
+	src: url("../fonts/Brozas-ExtraBlack.woff2") format("woff2"), url("../fonts/Brozas-ExtraBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "KenyanCoffeeStencilSb";
+	src: url("../fonts/KenyanCoffeeStencilSb-Regular.woff2") format("woff2"), url("../fonts/KenyanCoffeeStencilSb-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Kramola";
+	src: url("../fonts/Kramola.woff2") format("woff2"), url("../fonts/Kramola.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RedOctober";
+	src: url("../fonts/RedOctoberLight.woff2") format("woff2"), url("../fonts/RedOctoberLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RuslanDisplay";
+	src: url("../fonts/RuslanDisplay.woff2") format("woff2"), url("../fonts/RuslanDisplay.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Veles";
+	src: url("../fonts/Veles-Bold.woff2") format("woff2"), url("../fonts/Veles-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Veselka4F";
+	src: url("../fonts/Veselka4F.woff2") format("woff2"), url("../fonts/Veselka4F.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "StalinistOne";
+	src: url("../fonts/StalinistOne-Regular.woff2") format("woff2"), url("../fonts/StalinistOne-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.body {
+	background-image: url("../img/IMG_2337.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.item-list {
+	background: url("../img/list.svg") 0 0 / no-repeat;
+	/* min-height: 25px; */
+	padding: 0px 0px 0px 25px;
+	margin: 0px 0px 5px 0px;
+}
+
+.somo-block {
+	background: 1;
+}
+
+.header {
+	margin: 50px 0px 50px 0px;
+}
+
+.main {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.block {
+	max-width: 200px;
+	margin: 0px auto;
+}
+
+.block-1 {
+	background: linear-gradient(180deg, rgba(39, 59, 177, 0) 0%, rgba(205, 223, 203) 100%), url("../img/4091329_large.jpg") center / cover no-repeat;
+	border: 5px double rgba(31, 73, 33);
+	border-right: 5px double rgb(31, 73, 33);
+	border-bottom: 5px double rgb(31, 73, 33);
+	border-left: 5px double rgb(31, 73, 33);
+	border-radius: 0px 50px;
+	color: rgb(12, 95, 12);
+	font-size: 60px;
+	font-family: "RuslanDisplay";
+	letter-spacing: 20px;
+	text-align: center;
+	width: 50%;
+	margin: 0px auto;
+	padding: 10px;
+	word-wrap: break-word;
+}
+
+.block-2 {
+	width: 90%;
+	margin: 0px 0px 50px 0px;
+}
+
+.block-3 {
+	background-color: rgb(205, 223, 203);
+	border: 5px dashed rgba(60, 146, 38, 0.596);
+	border-right: 5px dashed rgb(60, 146, 38, 0.596);
+	border-bottom: 5px dashed rgb(60, 146, 38, 0.596);
+	border-left: 5px dashed rgb(60, 146, 38, 0.596);
+	border-radius: 30px;
+	box-shadow: inset 0px 0px 20px 0px rgb(3, 2, 1), 0px 0px 20px 0px;
+	font-size: 20px;
+	margin: 0px 0px 50px 0px;
+	padding: 10px;
+	font-family: "Lutsk-sity";
+	font-weight: 400;
+	color: rgb(83, 83, 255);
+}
+
+.block-4 {
+	background-color: rgb(205, 223, 203);
+	border: 5px dashed rgb(127, 127, 255);
+	border-right: 5px dashed rgb(127, 127, 255);
+	border-bottom: 5px dashed rgb(127, 127, 255);
+	border-left: 5px dashed rgb(127, 127, 255);
+	border-radius: 30px;
+	box-shadow: inset 0px 0px 20px 0px rgb(3, 2, 1), 0px 0px 20px 0px;
+	font-size: 20px;
+	margin: 0px 0px 50px 0px;
+	padding: 20px;
+	font-family: "AmerikaPro";
+	font-weight: 500;
+	color: rgba(105, 18, 18, 0.808);
+}
+
+.block-5 {
+	background-color: rgb(205, 223, 203);
+	border: 5px dashed rgb(199, 154, 71);
+	border-right: 5px dashed rgb(199, 154, 71);
+	border-bottom: 5px dashed rgb(199, 154, 71);
+	border-left: 5px dashed rgb(199, 154, 71);
+	border-radius: 30px;
+	box-shadow: inset 0px 0px 20px 0px rgb(3, 2, 1), 0px 0px 20px 0px;
+	font-size: 25px;
+	margin: 0px 0px 50px 0px;
+	padding: 20px;
+	font-family: "Brozas";
+	font-weight: 900;
+	color: rgb(219, 124, 0);
+	letter-spacing: 5px;
+}
+
+.block-6 {
+	background-color: rgb(205, 223, 203);
+	border: 5px dashed rgb(94, 192, 187);
+	border-right: 5px dashed rgb(94, 192, 187);
+	border-bottom: 5px dashed rgb(94, 192, 187);
+	border-left: 5px dashed rgb(94, 192, 187);
+	border-radius: 30px;
+	box-shadow: inset 0px 0px 20px 0px rgb(3, 2, 1), 0px 0px 20px 0px;
+	font-size: 20px;
+	margin: 0px 0px 50px 0px;
+	padding: 20px;
+	color: rgb(107, 126, 30);
+	font-size: 25px;
+	font-family: "Kramola";
+	font-weight: 400;
+	text-align: center;
+}
+
+.block-7 {
+	margin: 0px 0px 50px 0px;
+}
+
+.text-6 {
+	background: linear-gradient(180deg, rgba(58, 70, 180, 0) 0%, rgb(211, 255, 185) 100%), url("../img/4270697_large.jpg") center / cover no-repeat;
+	border: 5px double rgba(31, 73, 33);
+	border-right: 5px double rgb(31, 73, 33);
+	border-bottom: 5px double rgb(31, 73, 33);
+	border-left: 5px double rgb(31, 73, 33);
+	border-radius: 30px 30px;
+	color: rgb(109, 43, 43);
+	font-family: "RedOctober";
+	font-weight: 300;
+	letter-spacing: 20px;
+	text-align: center;
+	width: 50%;
+	margin: 0px auto;
+	padding: 10px;
+	word-wrap: break-word;
+	font-size: 25px;
+}
+
+.block-8 {
+	background: rgb(218, 218, 218);
+	background: linear-gradient(0deg, rgba(218, 218, 218, 1) 0%, rgba(100, 227, 103, 1) 47%, rgba(0, 212, 255, 1) 100%);
+	border: 5px dashed rgb(94, 192, 187);
+	border-right: 5px dashed rgb(94, 192, 187);
+	border-bottom: 5px dashed rgb(94, 192, 187);
+	border-left: 5px dashed rgb(94, 192, 187);
+	border-radius: 30px 30px 0px 0px;
+	box-shadow: inset 0px 0px 20px 0px rgb(3, 2, 1), 0px 0px 20px 0px;
+	font-size: 20px;
+	margin: 0px 0px 5px 0px;
+	padding: 20px;
+	color: rgb(126, 120, 30);
+	font-size: 25px;
+	font-family: "RuslanDisplay";
+	font-weight: 400;
+	text-align: center;
+}
+
+.block-9 {
+	width: 90%;
+	margin: 0px 0px 50px 0px;
+}
+
+.block-10 {
+	background: rgb(218, 218, 218);
+	background: linear-gradient(0deg, rgba(218, 218, 218, 1) 0%, rgba(171, 227, 100, 0.9023984593837535) 47%, rgba(0, 211, 255, 1) 100%);
+	border: 5px dashed rgb(94, 192, 187);
+	border-right: 5px dashed rgb(94, 192, 187);
+	border-bottom: 5px dashed rgb(94, 192, 187);
+	border-left: 5px dashed rgb(94, 192, 187);
+	border-radius: 30px 30px 0px 0px;
+	box-shadow: inset 0px 0px 20px 0px rgb(3, 2, 1), 0px 0px 20px 0px;
+	font-size: 20px;
+	margin: 0px 0px 5px 0px;
+	padding: 20px;
+	color: rgb(126, 120, 30);
+	font-size: 25px;
+	font-family: "Veles";
+	font-weight: 700;
+	text-align: center;
+}
+
+.block-11 {
+	width: 90%;
+	margin: 0px 0px 50px 0px;
+}
+
+.block-12 {
+	background: rgb(218, 218, 218);
+	background: linear-gradient(0deg, rgba(218, 218, 218, 1) 0%, rgba(227, 151, 100, 0.9023984593837535) 47%, rgba(0, 104, 255, 1) 100%);
+	border: 5px dashed rgb(94, 192, 187);
+	border-right: 5px dashed rgb(94, 192, 187);
+	border-bottom: 5px dashed rgb(94, 192, 187);
+	border-left: 5px dashed rgb(94, 192, 187);
+	border-radius: 30px 30px 0px 0px;
+	box-shadow: inset 0px 0px 20px 0px rgb(3, 2, 1), 0px 0px 20px 0px;
+	font-size: 20px;
+	margin: 0px 0px 50px 0px;
+	padding: 20px;
+	color: rgb(36, 30, 126);
+	font-size: 55px;
+	font-family: "Veselka4F";
+	font-weight: 700;
+	text-align: center;
+}
+
+.inline-block {
+	border: 5px dotted rgb(31, 73, 56);
+	border-radius: 100px;
+	box-shadow: 0px 0px 20px 5px rgb(26, 24, 23);
+}
+
+.inline-block-1 {
+	border: 5px dotted rgb(73, 31, 37);
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px 5px rgb(26, 24, 23);
+}
+
+.inline-block-2 {
+	margin: 0px 0px 20px 0px;
+	border: 5px solid rgb(31, 73, 33);
+	border-radius: 50px 50px 0px 0px;
+	box-shadow: 0px 0px 20px 5px rgb(26, 24, 23);
+}
+
+.inline-block-3 {
+	margin: 0px 0px 20px 0px;
+	border: 5px solid rgb(31, 73, 33);
+	border-radius: 0px 0px 50px 50px;
+	box-shadow: 0px 0px 20px 5px rgb(26, 24, 23);
+}
+
+.button1 {
+	color: beige;
+	font-family: "Comforter";
+	font-size: 40px;
+	display: inline-block;
+	margin: 0px 0px 30px 0px;
+	background-color: rgb(204, 207, 221);
+	padding: 12px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 20px 5px rgb(41, 41, 41), inset 0px 0px 20px 1px rgb(234, 242, 255);
+}
+
+.button {
+	font-size: 30px;
+	color: rgb(197, 47, 47);
+	font-family: "SFProDisplay";
+	font-weight: 700;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 50px;
+	margin-right: 0px;
+	display: inline-block;
+	background-color: rgb(2, 44, 231);
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 5px rgb(41, 41, 41), inset 0px 0px 20px 1px rgb(234, 242, 255);
+}
+
+.block-14 {
+	font-family: "lato";
+	margin: 0px auto;
+	max-width: 810px;
+}
+
+.footer {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.header-1 {
+	margin: 0px 0px 40px 0px;
+}
+
+.heading {
+	font-size: 46px;
+	font-weight: 900;
+	text-shadow: 0px 2px 5px rgb(133, 133, 133);
+	margin: 0px 0px 30px 0px;
+}
+
+.data {
+	display: inline-block;
+	background: url("../img/data.svg") 0 4px no-repeat;
+	color: rgb(117, 117, 117);
+	line-height: 1.6;
+	padding: 0px 0px 0px 24px;
+	margin: 0px 24px 0px 0px;
+}
+
+.clock {
+	display: inline-block;
+	background: url("../img/clock.svg") 0 4px no-repeat;
+	color: rgb(117, 117, 117);
+	line-height: 1.6;
+	padding: 0px 0px 0px 24px;
+	margin: 0px 24px 0px 0px;
+}
+
+.image {
+	margin: 0px 0px 60px 0px;
+	box-shadow: 0px 4px 5px rgb(160, 160, 160);
+}
+
+.text3 {
+	font-size: 20px;
+	font-weight: 700;
+	text-shadow: 0px 3px 5px rgb(139, 139, 139);
+	margin: 0px 0px 30px 0px;
+	line-height: 30px;
+}
+
+.text4 {
+	font-size: 16px;
+	font-weight: 400;
+	text-shadow: 0px 2px 5px rgb(156, 156, 156);
+	margin: 0px 0px 30px 0px;
+	line-height: 25.6px;
+}
+
+.text4-1 {
+	font-size: 16px;
+	font-weight: 400;
+	text-shadow: 0px 2px 5px rgb(156, 156, 156);
+	margin: 0px 0px 0px 0px;
+	line-height: 25.6px;
+}
+
+.list {
+	margin: 0px 0px 25px 0px;
+}
+
+.list li {
+	font-size: 16px;
+	font-weight: 400;
+	text-shadow: 0px 2px 5px rgb(156, 156, 156);
+	background: url("../img/list.svg") 0 4px no-repeat;
+	line-height: 1.6;
+	color: rgb(63, 63, 63);
+	padding: 0px 0px 0px 32px;
+	margin: 0px 0px 3px 0px;
+}
+
+.text5 {
+	background: url("../img/quotes.svg") 0 0 no-repeat;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: rgb(63, 63, 63);
+	padding: 0px 0px 0px 58px;
+	margin: 0px 0px 48px 0px;
+}
+
+.block-15 {
+	margin: 0px 0px 40px 0px;
+}
+
+.block-16 {
+	margin: 0px 0px 40px 0px;
+}
+
+.footer-1 {
+	max-width: 390px;
+	margin: 0px auto;
+}
+
+.title-1 {
+	margin: 0px 0px 30px 0px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.title-2 {
+	margin: 0px 0px 30px 0px;
+	font-size: 46px;
+	font-weight: 900;
+}
+
+ul {
+	margin: 0px 0px 40px 0px;
+}
+
+.list-footer li {
+	font-size: 16px;
+	font-weight: 400;
+	background: url("../img/list.svg") 0 4px no-repeat;
+	line-height: 1.6;
+	color: rgb(63, 63, 63);
+	padding: 0px 0px 0px 32px;
+	margin: 0px 0px 10px 0px;
+}
+
+.button-1 {
+	display: inline-block;
+	color: white;
+	font-size: 14px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	font-weight: 700;
+	width: 161px;
+	height: 44px;
+	border-radius: 4px;
+	line-height: 44px;
+	text-align: center;
+	margin: 0px 0px 150px 0px;
+}
